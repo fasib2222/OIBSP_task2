@@ -1,0 +1,50 @@
+/* Add styling for your portfolio */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-details {
+    margin-left: 20px;
+}
+
+#about, #skills, #projects, #contact {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
